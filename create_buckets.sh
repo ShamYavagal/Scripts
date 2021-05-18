@@ -1,5 +1,7 @@
 #!/bin/bash  
 
+###
+
 if [ "$#" -ne 3 ]; then
     echo "USAGE: <script_name> <'environment' ex: dev,stage,uat,prod, prod-dr>, <'aws region name' ex: us-east1, eu-west1 etc for example> <your aws profile name>"
     exit 1
