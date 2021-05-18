@@ -26,7 +26,7 @@ class DeleteBucketObject {
                 .withRegion(Regions.US_EAST_1)
                 .build();
 						
-		String bucket_name = "sniorigin-test";
+		String bucket_name = "bucket_name";
 		String object_key = "test1.txt";
 		
 		try {
